@@ -16,6 +16,7 @@
 		B23BE94321F405190020AC1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B23BE94221F405190020AC1E /* main.m */; };
 		B23BE94D21F405190020AC1E /* TabbedAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B23BE94C21F405190020AC1E /* TabbedAppTests.m */; };
 		B23BE95821F405190020AC1E /* TabbedAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B23BE95721F405190020AC1E /* TabbedAppUITests.m */; };
+		B23BE96721F4E8510020AC1E /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B23BE96621F4E8510020AC1E /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		B23BE95321F405190020AC1E /* TabbedAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbedAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23BE95721F405190020AC1E /* TabbedAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbedAppUITests.m; sourceTree = "<group>"; };
 		B23BE95921F405190020AC1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23BE96521F4E8510020AC1E /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		B23BE96621F4E8510020AC1E /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				B23BE93621F405180020AC1E /* SecondViewController.h */,
 				B23BE93721F405180020AC1E /* SecondViewController.m */,
 				B23BE93921F405180020AC1E /* Main.storyboard */,
+				B23BE96521F4E8510020AC1E /* ThirdViewController.h */,
+				B23BE96621F4E8510020AC1E /* ThirdViewController.m */,
 				B23BE93C21F405190020AC1E /* Assets.xcassets */,
 				B23BE93E21F405190020AC1E /* LaunchScreen.storyboard */,
 				B23BE94121F405190020AC1E /* Info.plist */,
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B23BE93821F405180020AC1E /* SecondViewController.m in Sources */,
+				B23BE96721F4E8510020AC1E /* ThirdViewController.m in Sources */,
 				B23BE93221F405180020AC1E /* AppDelegate.m in Sources */,
 				B23BE94321F405190020AC1E /* main.m in Sources */,
 				B23BE93521F405180020AC1E /* FirstViewController.m in Sources */,

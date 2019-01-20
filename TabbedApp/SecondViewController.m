@@ -10,14 +10,42 @@
 
 @interface SecondViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *countLabel;
+
 @end
 
 @implementation SecondViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+
 }
+
+-(instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super initWithCoder:aDecoder]) {
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeValue:) name:@".com.jc.is.confused" object:nil];
+    }
+    return self;
+}
+
+-(void)changeValue:(NSNotification *)notification {
+    
+    self.countLabel.text = [NSString stringWithFormat:@"%@",[notification.userInfo objectForKey:@"senderKey"]];
+    
+}
+
+- (void)appWillResign {
+    NSLog(@"Do things when the app is about to be closed");
+    
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:@".com.jc.is.confused"  object:nil];
+}
+
+
+
+
 
 
 @end
