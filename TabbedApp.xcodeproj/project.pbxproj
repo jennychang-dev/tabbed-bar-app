@@ -17,6 +17,8 @@
 		B23BE94D21F405190020AC1E /* TabbedAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B23BE94C21F405190020AC1E /* TabbedAppTests.m */; };
 		B23BE95821F405190020AC1E /* TabbedAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B23BE95721F405190020AC1E /* TabbedAppUITests.m */; };
 		B23BE96721F4E8510020AC1E /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B23BE96621F4E8510020AC1E /* ThirdViewController.m */; };
+		B23BE96A21F52B430020AC1E /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B23BE96921F52B430020AC1E /* CustomView.m */; };
+		B23BE96D21F52BE80020AC1E /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B23BE96C21F52BE80020AC1E /* FourthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		B23BE95921F405190020AC1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B23BE96521F4E8510020AC1E /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		B23BE96621F4E8510020AC1E /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		B23BE96821F52B430020AC1E /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		B23BE96921F52B430020AC1E /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		B23BE96B21F52BE80020AC1E /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		B23BE96C21F52BE80020AC1E /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 				B23BE93621F405180020AC1E /* SecondViewController.h */,
 				B23BE93721F405180020AC1E /* SecondViewController.m */,
 				B23BE93921F405180020AC1E /* Main.storyboard */,
+				B23BE96B21F52BE80020AC1E /* FourthViewController.h */,
+				B23BE96C21F52BE80020AC1E /* FourthViewController.m */,
+				B23BE96821F52B430020AC1E /* CustomView.h */,
+				B23BE96921F52B430020AC1E /* CustomView.m */,
 				B23BE96521F4E8510020AC1E /* ThirdViewController.h */,
 				B23BE96621F4E8510020AC1E /* ThirdViewController.m */,
 				B23BE93C21F405190020AC1E /* Assets.xcassets */,
@@ -277,6 +287,8 @@
 				B23BE93221F405180020AC1E /* AppDelegate.m in Sources */,
 				B23BE94321F405190020AC1E /* main.m in Sources */,
 				B23BE93521F405180020AC1E /* FirstViewController.m in Sources */,
+				B23BE96D21F52BE80020AC1E /* FourthViewController.m in Sources */,
+				B23BE96A21F52B430020AC1E /* CustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
