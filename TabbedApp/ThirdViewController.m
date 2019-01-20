@@ -53,21 +53,21 @@
     [self.view setFrame:CGRectMake(0, 0, 400, self.origViewHeight - [notification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue].size.height)];
 }
 
-//-(BOOL)textFieldShouldEndEditing:(UITextField *)textField
-//{
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidHide:) name:UIKeyboardWillHideNotification object:nil];
-//
-//    NSLog(@"I have stopped editing");
-//    [textField resignFirstResponder];
-//    return YES;
-//}
-//
-//
-//-(void)keyboardDidHide:(NSNotification *)notification
-//{
-//    NSLog(@"hidden keyboard");
-//    [self.view setFrame:CGRectMake(0,0,320,460)];
-//}
+-(BOOL)textFieldShouldEndEditing:(UITextField *)textField
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidHide:) name:UIKeyboardWillHideNotification object:nil];
+
+    NSLog(@"I have stopped editing");
+    [textField resignFirstResponder];
+    return YES;
+}
+
+
+-(void)keyboardDidHide:(NSNotification *)notification
+{
+    NSLog(@"hidden keyboard");
+    [self.view setFrame:CGRectMake(0,0,320,460)];
+}
 
 
 @end
